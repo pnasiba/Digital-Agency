@@ -1,0 +1,17 @@
+button {
+    color: rgb(255, 255, 255);
+    padding: 11px 24px 11px 24px;
+    border-radius: 50px;
+    background: rgb(22, 93, 245);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+
+    &:hover{
+        background-color:#165df5a6;
+        transition: all .2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+}

@@ -1,0 +1,42 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    backdrop-filter: blur(7px);
+    
+    nav {
+        padding: 24px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul {
+            li {
+                list-style: none;
+
+                .logoname{
+                    color: #165DF5;
+                }
+            }
+        }
+
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 14px;
+
+            
+        }
+
+        .list-item{
+            display: flex;
+            gap: 40px;
+        }
+
+        .header-btn{
+            display: flex;
+            align-items: center;
+            gap: 11px;
+        }
+    }
+}
