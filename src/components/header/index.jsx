@@ -11,9 +11,9 @@ function header(){
           <nav>
             <ul className="logo">
               <img src={logo} alt="logo" />
-              <li>
+              <a href="#">
                 Digital <span className="logoname">Agency</span>
-              </li>
+              </a>
             </ul>
             <ul className="list-item">
               <li>Ana Sayfa</li>
@@ -22,7 +22,12 @@ function header(){
               <li>Blog</li>
             </ul>
             <ul className="header-btn">
-              <li>EN</li>
+              <li>
+                <select name="en" id="en">
+                  <option value="en">EN</option>
+                  <option value="uz">UZ</option>
+                </select>
+              </li>
               <Button />
             </ul>
           </nav>

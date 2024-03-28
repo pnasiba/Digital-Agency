@@ -3,7 +3,7 @@ header {
     width: 100%;
     z-index: 99999;
     backdrop-filter: blur(7px);
-    
+
     nav {
         padding: 24px 0;
         display: flex;
@@ -11,32 +11,51 @@ header {
         justify-content: space-between;
 
         ul {
+
+            a {
+                color: black;
+                text-decoration: none;
+
+                .logoname {
+                        color: #165DF5;
+                    }
+            }
+
             li {
                 list-style: none;
+                cursor: pointer;
 
-                .logoname{
-                    color: #165DF5;
+                
+
+                &:hover {
+                    color: #165df5df;
                 }
             }
         }
 
-        .logo{
+        .logo {
             display: flex;
             align-items: center;
             gap: 14px;
 
-            
+
         }
 
-        .list-item{
+        .list-item {
             display: flex;
             gap: 40px;
         }
 
-        .header-btn{
+        .header-btn {
             display: flex;
             align-items: center;
             gap: 11px;
+
+            select{
+                background-color: transparent;
+                border: none;
+                outline: none;
+            }
         }
     }
 }
