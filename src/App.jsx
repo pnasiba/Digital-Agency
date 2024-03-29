@@ -13,7 +13,7 @@ import cardBoxImage2 from "@img/cardImage3.png";
 import cardBoxImage3 from "@img/cardImage4.png";
 import profile from "@img/avatar.svg"
 import star from "@img/start.svg";
-// import Footer from "@cm/footer";
+import Footer from "@cm/footer";
 
 function App() {
 
@@ -293,7 +293,7 @@ function App() {
         </section>
       </main>
 
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 }
